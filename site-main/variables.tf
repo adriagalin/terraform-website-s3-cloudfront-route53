@@ -5,7 +5,7 @@ variable region {
 variable domain {}
 variable duplicate-content-penalty-secret {}
 variable deployer {}
-variable acm-certificate-arn {}
+variable iam_certificate_id {}
 variable routing_rules {
   default = ""
 }
